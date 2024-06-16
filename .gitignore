@@ -1,0 +1,6 @@
+#enviroment file
+.env
+
+node_modules/
+
+package.json
