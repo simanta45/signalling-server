@@ -14,6 +14,10 @@ server.get("/about",(req,res)=>{
     res.send("<h1>you are in the about page</h1>") 
 })
 
+server.get("/contact",(req,res)=>{
+    res.send("<h1>you are in the contact page</h1>") 
+})
+
 server.listen(PORT,()=>{
     console.log("server is runnung in the port"+ PORT)
 })
